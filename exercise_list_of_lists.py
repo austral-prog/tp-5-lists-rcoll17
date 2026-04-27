@@ -1,6 +1,10 @@
 # Ejercicio 12: Manipular lista de listas
 
 def list_of_lists(lista_de_listas):
+
+    return [lista_de_listas[0][0:2],
+            lista_de_listas[1][1:4],
+            lista_de_listas[2][-2:]]
     """
     Modifica una lista de 3 listas internas:
     - Primera lista: solo los primeros 2 elementos
